@@ -10,3 +10,10 @@ PRODUCT_PACKAGES += \
     SysuiQsBlackTheme \
     SettingsIntelligenceDark \
     SettingsIntelligenceBlack
+
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStilesDefault \
+    QStilesCircleTrim \
+    QStilesSquircleTrim \
+    QStilesTwoToneCircle
