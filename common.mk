@@ -21,3 +21,6 @@ include vendor/themes/misc.mk
 
 # Themes
 include vendor/themes/themes.mk
+
+# QS Tile styles
+include vendor/themes/qsstyles.mk
