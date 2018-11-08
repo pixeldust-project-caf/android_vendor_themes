@@ -3,5 +3,8 @@ PRODUCT_PACKAGES += \
     GBoardDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme \
-    SysuiQsDarkTheme
-
+    SysuiQsDarkTheme \
+    SysuiQsDarkTheme \
+    SettingsBlackTheme \
+    SystemBlackTheme \
+    SysuiQsBlackTheme
