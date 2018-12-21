@@ -56,3 +56,8 @@ PRODUCT_PACKAGES += \
     ColdYellow \
     NewHouseOrange \
     IllusionsPurple
+
+# QS Accent Packages
+PRODUCT_PACKAGES += \
+    QsAccentBlack \
+    QsAccentWhite
