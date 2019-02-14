@@ -53,4 +53,7 @@
     <color name="autofill_save_title_color">@android:color/black</color>
     <color name="autofill_autofill_save_custom_subtitle_color">@android:color/black</color>
 
+    <!-- QS footer drag -->
+    <color name="qs_footer_drag">#e5e5e5</color>
+
 </resources>

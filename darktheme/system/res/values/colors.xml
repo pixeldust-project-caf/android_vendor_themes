@@ -65,4 +65,7 @@
     <color name="notification_default_color_light">@*android:color/theme_text1</color>
     <color name="notification_default_color_dark">@*android:color/theme_text1</color>
 
+    <!-- QS footer drag -->
+    <color name="qs_footer_drag">#e5e5e5</color>
+
 </resources>

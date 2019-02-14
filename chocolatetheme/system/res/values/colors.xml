@@ -66,4 +66,7 @@
     <!-- Two target preference vertical divider color -->
     <color name="list_divider_dark">#473e38</color>
 
+    <!-- QS footer drag -->
+    <color name="qs_footer_drag">#e5e5e5</color>
+
 </resources>
