@@ -55,7 +55,13 @@ PRODUCT_PACKAGES += \
     HazedPink \
     ColdYellow \
     NewHouseOrange \
-    IllusionsPurple
+    IllusionsPurple \
+    MintGreenTheme \
+    FadedPink \
+    DeepRed \
+    PinkRed \
+    KindaIndigo \
+    ArmyGreen
 
 # QS Accent Packages
 PRODUCT_PACKAGES += \
