@@ -7,7 +7,9 @@ PRODUCT_PACKAGES += \
     SysuiQsDarkTheme \
     SettingsBlackTheme \
     SystemBlackTheme \
-    SysuiQsBlackTheme
+    SysuiQsBlackTheme \
+    SettingsIntelligenceDark \
+    SettingsIntelligenceBlack
 
 # Settings Icon Tint
 PRODUCT_PACKAGES += \
