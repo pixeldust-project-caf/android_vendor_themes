@@ -16,4 +16,18 @@ PRODUCT_PACKAGES += \
     QStilesSquare \
     QStilesRoundedSquare \
     QStilesSquircle \
-    QStilesTearDrop
+    QStilesTearDrop \
+    QStileCircleTrim \
+    QStileDualToneCircle \
+    QStileOreo \
+    QStileOreoCircleTrim \
+    QStileOreoSquircleTrim \
+    QStileSquircleTrim \
+    QStileMountain \
+    QStileCircleDualTone \
+    QStileCircleGradient \
+    QStileDottedCircle \
+    QStileNinja \
+    QStilePokesign \
+    QStileWavey \
+    QStileCookie
