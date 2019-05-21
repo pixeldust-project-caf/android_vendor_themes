@@ -7,12 +7,32 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    GBoardDark \
-    GBoardLight \
-    GoogleIntelligenceSenseDark \
-    GoogleIntelligenceSenseLight \
-    SettingsDark \
-    SettingsIntelligenceDark \
-    SystemDark \
-    SystemUiDark \
-    WellbeingDark
+    FilesThemeBlack \
+    FilesThemeChocolate \
+    FilesThemeDark \
+    FilesThemeShishuNights \
+    GBoardThemeBlack \
+    GBoardThemeChocolate \
+    GBoardThemeDark \
+    GBoardThemeLight \
+    GBoardThemeShishuNights \
+    GoogleIntelligenceSenseThemeDark \
+    GoogleIntelligenceSenseThemeLight \
+    GMSThemeShishuNights \
+    SettingsBlackTheme \
+    SettingsChocolateTheme \
+    SettingsThemeDark \
+    SettingsShishuNightsTheme \
+    SettingsIntelligenceThemeDark \
+    SystemBlackTheme \
+    SystemChocolateTheme \
+    SystemThemeDark \
+    SystemShishuNightsTheme \
+    SystemUIBlackTheme \
+    SystemUIChocolateTheme \
+    SystemUiThemeDark \
+    SystemUIShishuNightsTheme \
+    WellbeingThemeBlack \
+    WellbeingThemeChocolate \
+    WellbeingThemeDark \
+    WellbeingThemeShishuNights
