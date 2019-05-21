@@ -5,20 +5,27 @@ PRODUCT_PACKAGES += \
     Blue \
     BlueGrey \
     Brown \
+    CandyRed \
     Cyan \
     DeepOrange \
     DeepPurple \
+    ExtendedGreen \
     Green \
     Grey \
     Indigo \
+    JadeGreen \
     LightBlue \
     LightGreen \
     Lime \
     Orange \
+    PaleBlue \
+    PaleRed \
     Pink \
     Purple \
     Red \
     Teal \
+    Yellow \
+    White \
     UserOne \
     UserTwo \
     UserThree \
@@ -26,5 +33,26 @@ PRODUCT_PACKAGES += \
     UserFive \
     UserSix \
     UserSeven \
-    Yellow \
-    White
+    ObfusBleu \
+    NotImpPurple \
+    Holillusion \
+    MoveMint \
+    FootprintPurple \
+    BubblegumPink \
+    FrenchBleu \
+    Stock \
+    ManiaAmber \
+    SeasideMint \
+    DreamyPurple \
+    SpookedPurple \
+    HeirloomBleu \
+    TruFilPink \
+    WarmthOrange \
+    ColdBleu \
+    DiffDayGreen \
+    DuskPurple \
+    BurningRed \
+    HazedPink \
+    ColdYellow \
+    NewHouseOrange \
+    IllusionsPurple
