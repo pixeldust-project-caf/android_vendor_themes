@@ -42,4 +42,9 @@ PRODUCT_PACKAGES += \
     QStileNinja \
     QStilePokesign \
     QStileWavey \
-    QStileCookie
+    QStileCookie \
+    QSTileCosmos \
+    QSTileDividedCircle \
+    QSTileNeonLight \
+    QSTileOxygen \
+    QSTileTriangles
