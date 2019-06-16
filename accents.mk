@@ -61,7 +61,8 @@ PRODUCT_PACKAGES += \
     DeepRed \
     PinkRed \
     KindaIndigo \
-    ArmyGreen
+    ArmyGreen \
+    Pixel
 
 # QS Accent Packages
 PRODUCT_PACKAGES += \
