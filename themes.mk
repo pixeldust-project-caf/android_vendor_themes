@@ -13,5 +13,4 @@ PRODUCT_PACKAGES += \
 
 # Settings Icon Tint
 PRODUCT_PACKAGES += \
-    SettingsIconTint \
-    SettingsIconTintDark
+    SettingsIconTint
