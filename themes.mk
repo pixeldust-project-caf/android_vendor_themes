@@ -10,7 +10,3 @@ PRODUCT_PACKAGES += \
     SysuiQsBlackTheme \
     SettingsIntelligenceDark \
     SettingsIntelligenceBlack
-
-# Settings Icon Tint
-PRODUCT_PACKAGES += \
-    SettingsIconTint
