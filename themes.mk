@@ -4,12 +4,15 @@ PRODUCT_PACKAGES += \
     SettingsDarkTheme \
     SystemDarkTheme \
     SysuiQsDarkTheme \
-    SysuiQsDarkTheme \
+    SettingsIntelligenceDark \
     SettingsBlackTheme \
     SystemBlackTheme \
     SysuiQsBlackTheme \
-    SettingsIntelligenceDark \
-    SettingsIntelligenceBlack
+    SettingsIntelligenceBlack \
+    SettingsShishuNightsTheme \
+    SystemShishuNightsTheme \
+    SysuiQsShishuNightsTheme \
+    SettingsIntelligenceShishuNights
 
 # QS tile styles
 PRODUCT_PACKAGES += \
