@@ -14,6 +14,15 @@ PRODUCT_PACKAGES += \
     SysuiQsShishuNightsTheme \
     SettingsIntelligenceShishuNights
 
+# Extra Theme Packages
+PRODUCT_PACKAGES += \
+    FilesThemeBlack \
+    WellbeingThemeBlack \
+    FilesThemeDark \
+    WellbeingThemeDark \
+    FilesThemeShishuNights \
+    WellbeingThemeShishuNights
+
 # QS tile styles
 PRODUCT_PACKAGES += \
     QStilesSquare \
