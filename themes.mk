@@ -17,10 +17,13 @@ PRODUCT_PACKAGES += \
 # Extra Theme Packages
 PRODUCT_PACKAGES += \
     FilesThemeBlack \
+    UpdaterThemeBlack \
     WellbeingThemeBlack \
     FilesThemeDark \
+    UpdaterThemeDark \
     WellbeingThemeDark \
     FilesThemeShishuNights \
+    UpdaterThemeShishuNights \
     WellbeingThemeShishuNights
 
 # QS tile styles
