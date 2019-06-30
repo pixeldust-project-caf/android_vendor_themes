@@ -16,12 +16,15 @@ PRODUCT_PACKAGES += \
 
 # Extra Theme Packages
 PRODUCT_PACKAGES += \
+    FaceLockBlack \
     FilesThemeBlack \
     UpdaterThemeBlack \
     WellbeingThemeBlack \
+    FaceLockDark \
     FilesThemeDark \
     UpdaterThemeDark \
     WellbeingThemeDark \
+    FaceLockShishuNights \
     FilesThemeShishuNights \
     UpdaterThemeShishuNights \
     WellbeingThemeShishuNights
