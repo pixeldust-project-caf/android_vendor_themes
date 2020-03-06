@@ -13,8 +13,11 @@ include vendor/themes/fonts.mk
 # Icon Shapes
 include vendor/themes/iconshapes.mk
 
-# Themes
-include vendor/themes/themes.mk
+# Navbar
+include vendor/themes/navbar.mk
 
 # Misc
 include vendor/themes/misc.mk
+
+# Themes
+include vendor/themes/themes.mk
