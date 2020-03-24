@@ -12,4 +12,5 @@ PRODUCT_PACKAGES += \
     NavbarMotoOverlay \
     NavbarNexusOverlay \
     NavbarOldOverlay \
-    NavbarSammyOverlay
+    NavbarSammyOverlay \
+    NavbarPDOverlay
