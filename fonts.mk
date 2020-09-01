@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
     FontSamsungOneSourceOverlay \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSonySketchSourceOverlay \
+    FontSummerDreamSourceOverlay \
     FontSurferSourceOverlay
 
 PRODUCT_COPY_FILES += \
@@ -55,5 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/themes/fonts/prebuilt/SlateFromOP-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SlateFromOP-Regular.ttf \
     vendor/themes/fonts/prebuilt/snowstorm.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Snowstorm-Regular.ttf \
     vendor/themes/fonts/prebuilt/SonySketch.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SonySketch.ttf \
+    vendor/themes/fonts/prebuilt/SummerDream.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SummerDream.ttf \
     vendor/themes/fonts/prebuilt/Surfer.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Surfer.ttf \
     vendor/themes/fonts/prebuilt/vcr_osd_mono.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/ThemeableFont-Regular.ttf

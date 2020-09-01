@@ -269,6 +269,10 @@
     <alias name="fantasy" to="sonysketch" />
     <alias name="ITC Stone Serif" to="sonysketch" />
 
+    <family customizationType="new-named-family" name="summerdream">
+        <font weight="300" style="normal">SummerDream.ttf</font>
+    </family>
+
     <family name="surfer">
         <font weight="300" style="normal">Surfer.ttf</font>
     </family>
