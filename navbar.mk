@@ -1,6 +1,7 @@
-# Gestural Navigation Bar Fullscreen
+# Gestural Navigation Bar overlays
 PRODUCT_PACKAGES += \
-     NavigationBarModeGesturalOverlayFS
+    NavigationBarModeGesturalOverlayFS \
+    GesturalNavigationOverlayHidden
 
 # Themes
 PRODUCT_PACKAGES += \
