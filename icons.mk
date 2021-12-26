@@ -36,7 +36,12 @@ PRODUCT_PACKAGES += \
     IconPackRoundedThemePickerOverlay \
     IconPackOutlineAndroidOverlay \
     IconPackOutlineSettingsOverlay \
-    IconPackOutlineSystemUIOverlay
+    IconPackOutlineSystemUIOverlay \
+    IconPackPUIAndroidOverlay \
+    IconPackPUILauncherOverlay \
+    IconPackPUISettingsOverlay \
+    IconPackPUISystemUIOverlay \
+    IconPackPUIThemePickerOverlay
 
 # Icon shapes
 PRODUCT_PACKAGES += \
