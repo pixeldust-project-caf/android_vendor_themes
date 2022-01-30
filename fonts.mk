@@ -1,43 +1,41 @@
 # Fonts
+$(call inherit-product-if-exists, external/google-fonts/arbutus-slab/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/arvo/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/source-sans-pro/fonts.mk)
+
+LOCAL_PATH := vendor/themes/fonts
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/themes/fonts//prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
-    vendor/themes/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+    $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
+#Font Overalys
 PRODUCT_PACKAGES += \
+    FontAclonicaSourceOverlay \
+    FontAdamCGinoraOverlay \
+    FontAmaranteSourceOverlay \
+    FontArbutusSourceOverlay \
+    FontArvoLatoOverlay \
+    FontBariolSourceOverlay \
+    FontBigNoodleOverlay \
+    FontBikoHankenOverlay \
+    FontCagliostroSourceOverlay \
+    FontComfortaaSourceOverlay \
+    FontComicSansSourceOverlay \
+    FontCoolstorySourceOverlay \
     FontGoogleSansOverlay \
-    FontInterOverlay \
-    FontLinotteSourceOverlay \
-    FontManropeOverlay \
-    FontOnePlusSansOverlay \
-    FontOneplusSlateSourceOverlay
-
-PRODUCT_PACKAGES += \
-    ArbutusSlab-Regular.ttf \
-    Arvo-Regular.ttf \
-    Arvo-Italic.ttf \
-    Arvo-Bold.ttf \
-    Arvo-BoldItalic.ttf \
-    Barlow-Bold.ttf \
-    Barlow-Medium.ttf \
-    BigShouldersText-Bold.ttf  \
-    BigShouldersText-ExtraBold.ttf \
-    Fraunces-Regular.ttf \
-    Fraunces-SemiBold.ttf \
-    Karla-Regular.ttf \
-    Lato-Regular.ttf \
-    Lato-Italic.ttf \
-    Lato-Medium.ttf \
-    Lato-MediumItalic.ttf \
-    Lato-Bold.ttf \
-    Lato-BoldItalic.ttf \
-    Lustria-Regular.ttf \
-    Rubik-Regular.ttf \
-    Rubik-Italic.ttf \
-    Rubik-Medium.ttf \
-    Rubik-MediumItalic.ttf \
-    Rubik-Bold.ttf \
-    Rubik-BoldItalic.ttf \
-    ZillaSlab-Medium.ttf \
-    ZillaSlab-MediumItalic.ttf \
-    ZillaSlab-SemiBold.ttf \
-    ZillaSlab-SemiBoldItalic.ttf
+    FontLGSmartGothicSourceOverlay \
+    FontMittelschriftOverlay \
+    FontMontserratSourceOverlay \
+    FontOneplusSansOverlay \
+    FontOneplusSlateSource \
+    FontPisselOverlay \
+    FontReemKufiOverlay \
+    FontRobotoOverlay \
+    FontRosemarySourceOverlay \
+    FontRubikRubikOverlay \
+    FontSamsungOneSourceOverlay \
+    FontSonySketchSourceOverlay \
+    FontSurferSourceOverlay
