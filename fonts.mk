@@ -30,7 +30,7 @@ PRODUCT_PACKAGES += \
     FontMittelschriftOverlay \
     FontMontserratSourceOverlay \
     FontOneplusSansOverlay \
-    FontOneplusSlateSource \
+    FontOneplusSlateSourceOverlay \
     FontPisselOverlay \
     FontReemKufiOverlay \
     FontRobotoOverlay \
