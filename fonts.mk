@@ -14,28 +14,45 @@ PRODUCT_COPY_FILES += \
 #Font Overalys
 PRODUCT_PACKAGES += \
     FontAclonicaSourceOverlay \
-    FontAdamCGinoraOverlay \
     FontAmaranteSourceOverlay \
+    FontAntipastoProSourceOverlay \
     FontArbutusSourceOverlay \
-    FontArvoLatoOverlay \
+    FontArvoLatoSourceOverlay \
     FontBariolSourceOverlay \
-    FontBigNoodleOverlay \
-    FontBikoHankenOverlay \
+    FontBigNoodleSourceOverlay \
+    FontBikoHankenSourceOverlay \
     FontCagliostroSourceOverlay \
+    FontCoconSourceOverlay \
     FontComfortaaSourceOverlay \
     FontComicSansSourceOverlay \
     FontCoolstorySourceOverlay \
-    FontGoogleSansOverlay \
+    FontFifa2018SourceOverlay \
+    FontFucekSourceOverlay \
+    FontGInterSourceOverlay \
+    FontGoogleSansSourceOverlay \
+    FontGrandHotelSourceOverlay \
+    FontHarmonySansSourceOverlay \
+    FontLemonMilkSourceOverlay \
     FontLGSmartGothicSourceOverlay \
-    FontMittelschriftOverlay \
+    FontLinotteSourceOverlay \
+    FontManropeSourceOverlay \
+    FontMittelschriftSourceOverlay \
     FontMontserratSourceOverlay \
-    FontOneplusSansOverlay \
+    FontNokiaPureSourceOverlay \
+    FontNunitoSourceOverlay \
+    FontOdudaSourceOverlay \
+    FontOneplusSansSourceOverlay \
     FontOneplusSlateSourceOverlay \
-    FontPisselOverlay \
-    FontReemKufiOverlay \
-    FontRobotoOverlay \
+    FontPisselSourceOverlay \
+    FontQuandoSourceOverlay \
+    FontRedressedSourceOverlay \
+    FontReemKufiSourceOverlay \
+    FontRobotoSourceOverlay \
     FontRosemarySourceOverlay \
-    FontRubikRubikOverlay \
+    FontRubikRubikSourceOverlay \
     FontSamsungOneSourceOverlay \
+    FontSanFranciscoDisplayProSourceOverlay \
+    FontSimpleDaySourceOverlay \
     FontSonySketchSourceOverlay \
+    FontStoropiaSourceOverlay \
     FontSurferSourceOverlay
