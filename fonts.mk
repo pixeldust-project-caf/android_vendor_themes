@@ -5,48 +5,142 @@ $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/source-sans-pro/fonts.mk)
 
-LOCAL_PATH := vendor/themes/fonts
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+LOCAL_PATH := vendor/themes/prebuilt
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH),$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
-#Font Overlays
+# Clock Font Overlays
 PRODUCT_PACKAGES += \
+    ClockFont3DIsometricBlackOverlay \
+    ClockFont3DIsometricBoldOverlay \
     ClockFontAccuratistOverlay \
+    ClockFontACFilmstripOverlay \
     ClockFontAclonicaOverlay \
+    ClockFontAdventProOverlay \
+    ClockFontAlienLeagueOverlay \
+    ClockFontAlmonteSnowOverlay \
+    ClockFontAlphaCloudsOverlay \
+    ClockFontAlphaFlowersOverlay \
+    ClockFontAlphaWoodOverlay \
     ClockFontAmaranteOverlay \
+    ClockFontAmpad3D2Overlay \
+    ClockFontArcadeInterlacedOverlay \
+    ClockFontBalticBoddenOverlay \
+    ClockFontBalticCoastOverlay \
+    ClockFontBalticDuneOverlay \
+    ClockFontBalticStormOverlay \
     ClockFontBariolOverlay \
+    ClockFontBetsyFlanaganOverlay \
+    ClockFontBigCheeseOverlay \
+    ClockFontBigNoodleTiltingOverlay \
+    ClockFontBikoOverlay \
+    ClockFontBrandayolqOverlay \
+    ClockFontBudmoJigglerOverlay \
+    ClockFontBunnyRabbitsOverlay \
+    ClockFontCafe24DecoshadowOverlay \
     ClockFontCagliostroOverlay \
+    ClockFontCatOverlay \
+    ClockFontCFBadNewsOverlay \
+    ClockFontCFOneTwoTreesOverlay \
+    ClockFontCherrySwashOverlay \
     ClockFontCoconOverlay \
     ClockFontComfortaaOverlay \
     ClockFontComicSansOverlay \
+    ClockFontConcentrateOverlay \
     ClockFontCoolstoryOverlay \
+    ClockFontCRACKMANOverlay \
+    ClockFontDiscoMidnightOverlay \
+    ClockFontDotComOverlay \
+    ClockFontEasterBunnyOverlay \
+    ClockFontEditPointsFilledOverlay \
+    ClockFontEditPointsOverlay \
+    ClockFontELRIOTT2Overlay \
     ClockFontExotwoOverlay \
+    ClockFontFibographyOverlay \
     ClockFontFifa2018Overlay \
-    ClockFontGoogleSansOverlay \
+    ClockFontFloorlightOverlay \
+    ClockFontFortaOverlay \
+    ClockFontfrankfrtOverlay \
+    ClockFontFuturrOverlay \
+    ClockFontGautsMotelUpperRightOverlay \
+    ClockFontGinoraSansOverlay \
     ClockFontGrandHotelOverlay \
+    ClockFontHangedOverlay \
     ClockFontHarmonySansOverlay \
+    ClockFontHeadlineOverlay \
+    ClockFontHotSweatOverlay \
+    ClockFontKaramuruhOverlay \
+    ClockFontKarmaticArcadeOverlay \
+    ClockFontKGOnlyHopeOverlay \
+    ClockFontKingthingsOverlay \
+    ClockFontKlyukinOverlay \
     ClockFontLatoOverlay \
     ClockFontLGSmartGothicOverlay \
     ClockFontLinotteOverlay \
+    ClockFontLiquidCrystalOverlay \
+    ClockFontLittleBunnyOverlay \
+    ClockFontLMSCliffordOverlay \
+    ClockFontlovenessthreeOverlay \
+    ClockFontLowerAtmosphereOverlay \
+    ClockFontMessingLetternOverlay \
+    ClockFontMonbijouxClownpieceOverlay \
+    ClockFontmunsteriaOverlay \
+    ClockFontMuseoModernoOverlay \
+    ClockFontMXWasgardOverlay \
+    ClockFontneon2Overlay \
+    ClockFontNeonDiscoOverlay \
+    ClockFontNeptunCATOverlay \
+    ClockFontNINJASOverlay \
     ClockFontNokiaPureOverlay \
+    ClockFontNothingDotOverlay \
     ClockFontNunitoOverlay \
+    ClockFontOdibeeSansOverlay \
     ClockFontOneplusSansOverlay \
     ClockFontOneplusSlateOverlay \
     ClockFontOswaldOverlay \
+    ClockFontPermanentMarkerOverlay \
+    ClockFontPinewoodOverlay \
     ClockFontPixelFontOverlay \
+    ClockFontPlaidEventOverlay \
+    ClockFontPlantsLettersOverlay \
+    ClockFontProdeltCoOverlay \
     ClockFontQuandoOverlay \
+    ClockFontQuickSouthOverlay \
     ClockFontRedressedOverlay \
     ClockFontReemKufiOverlay \
+    ClockFontREMPONKOverlay \
+    ClockFontRivieraOverlay \
+    ClockFontRoadRageOverlay \
     ClockFontRobotoCondensedOverlay \
+    ClockFontRomantiquesOverlay \
     ClockFontRosemaryOverlay \
+    ClockFontRoundheadsOverlay \
+    ClockFontRubikGlitchOverlay \
     ClockFontRubikOverlay \
     ClockFontSamsungOneOverlay \
+    ClockFontScrapItUpOverlay \
+    ClockFontSnowstormOverlay \
     ClockFontSonySketchOverlay \
+    ClockFontSpaceGameOverlay \
+    ClockFontStandardHeaderOverlay \
     ClockFontStoropiaOverlay \
     ClockFontSurferOverlay \
+    ClockFontTH3MACHINEOverlay \
+    ClockFontTourneyMediumOverlay \
     ClockFontUbuntuOverlay \
+    ClockFontUnionOverlay \
+    ClockFontV5PRFOverlay \
+    ClockFontVG5000Overlay \
+    ClockFontViburOverlay \
+    ClockFontVTKSDURA3dOverlay \
+    ClockFontxtrusionOverlay \
+    ClockFontZeroFourOverlay \
+    ClockFontZnikomitNo24Overlay
+
+# System Font Overlays
+PRODUCT_PACKAGES += \
     FontAclonicaSourceOverlay \
     FontAmaranteSourceOverlay \
     FontAntipastoProSourceOverlay \
@@ -55,32 +149,57 @@ PRODUCT_PACKAGES += \
     FontBariolSourceOverlay \
     FontBigNoodleSourceOverlay \
     FontBikoHankenSourceOverlay \
+    FontBlazmaHyperwaveOverlay \
     FontCagliostroSourceOverlay \
+    FontCardelinaOverlay \
+    FontCircularStdOverlay \
     FontCoconSourceOverlay \
     FontComfortaaSourceOverlay \
     FontComicSansSourceOverlay \
+    FontCookieRunOverlay \
+    FontCooljazzOverlay \
     FontCoolstorySourceOverlay \
+    FontDotComOverlay \
+    FontExotwoOverlay \
     FontFifa2018SourceOverlay \
+    FontFluidSansOverlay \
     FontFucekSourceOverlay \
+    FontGemsbuckPunkMonoObliqueOverlay \
+    FontGiganticFSHezaedrusOverlay \
     FontGInterSourceOverlay \
+    FontGoogleSansMediumOverlay \
     FontGoogleSansSourceOverlay \
     FontGrandHotelSourceOverlay \
     FontHarmonySansSourceOverlay \
+    FontInterSourceOverlay \
+    FontJicaletaOverlay \
+    FontJTLeonorOverlay \
+    FontJustSansOverlay \
     FontLemonMilkSourceOverlay \
     FontLGSmartGothicSourceOverlay \
     FontLinotteSourceOverlay \
     FontManropeSourceOverlay \
+    FontMiSansOverlay \
     FontMittelschriftSourceOverlay \
     FontMontserratSourceOverlay \
     FontNokiaPureSourceOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontNothingDotOverlay \
+    FontNotoSerifSource \
     FontNunitoSourceOverlay \
     FontOdudaSourceOverlay \
     FontOneplusSansSourceOverlay \
     FontOneplusSlateSourceOverlay \
+    FontOneUISansOverlay \
+    FontOppoSansOverlay \
+    FontOswaldOverlay \
     FontPisselSourceOverlay \
+    FontProductSansVHOverlay \
+    FontPunkMonoOverlay \
     FontQuandoSourceOverlay \
     FontRedressedSourceOverlay \
     FontReemKufiSourceOverlay \
+    FontRobotoCondensedOverlay \
     FontRobotoSourceOverlay \
     FontRosemarySourceOverlay \
     FontRubikRubikSourceOverlay \
@@ -89,4 +208,6 @@ PRODUCT_PACKAGES += \
     FontSimpleDaySourceOverlay \
     FontSonySketchSourceOverlay \
     FontStoropiaSourceOverlay \
-    FontSurferSourceOverlay
+    FontSurferSourceOverlay \
+    FontUbuntuOverlay \
+    FontVladivostokOverlay
