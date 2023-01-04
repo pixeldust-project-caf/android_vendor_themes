@@ -82,5 +82,7 @@ PRODUCT_PACKAGES += \
     ZigZagWiFiOverlay
 
 # Udfps icons and animations
+ifneq ($(filter oriole raven bluejay panther cheetah, $(TARGET_DEVICE)),)
 PRODUCT_PACKAGES += \
     UdfpsResources
+endif
