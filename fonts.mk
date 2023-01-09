@@ -11,8 +11,41 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
-#Font Overalys
+#Font Overlays
 PRODUCT_PACKAGES += \
+    ClockFontAccuratistOverlay \
+    ClockFontAclonicaOverlay \
+    ClockFontAmaranteOverlay \
+    ClockFontBariolOverlay \
+    ClockFontCagliostroOverlay \
+    ClockFontCoconOverlay \
+    ClockFontComfortaaOverlay \
+    ClockFontComicSansOverlay \
+    ClockFontCoolstoryOverlay \
+    ClockFontExotwoOverlay \
+    ClockFontFifa2018Overlay \
+    ClockFontGoogleSansOverlay \
+    ClockFontGrandHotelOverlay \
+    ClockFontHarmonySansOverlay \
+    ClockFontLatoOverlay \
+    ClockFontLGSmartGothicOverlay \
+    ClockFontLinotteOverlay \
+    ClockFontNokiaPureOverlay \
+    ClockFontNunitoOverlay \
+    ClockFontOneplusSansOverlay \
+    ClockFontOneplusSlateOverlay \
+    ClockFontOswaldOverlay \
+    ClockFontQuandoOverlay \
+    ClockFontRedressedOverlay \
+    ClockFontReemKufiOverlay \
+    ClockFontRobotoCondensedOverlay \
+    ClockFontRosemaryOverlay \
+    ClockFontRubikOverlay \
+    ClockFontSamsungOneOverlay \
+    ClockFontSonySketchOverlay \
+    ClockFontStoropiaOverlay \
+    ClockFontSurferOverlay \
+    ClockFontUbuntuOverlay \
     FontAclonicaSourceOverlay \
     FontAmaranteSourceOverlay \
     FontAntipastoProSourceOverlay \
