@@ -141,6 +141,10 @@
     </font>
   </family>
 
+    <family customizationType="new-named-family" name="google-sans-clock">
+        <font weight="300" style="normal">google_sans_clock.ttf</font>
+    </family>
+
     <family customizationType="new-named-family" name="google-sans-inter">
       <font weight="400" style="normal">GInterVF-Roman.ttf
         <axis tag="GRAD" stylevalue="0"/>

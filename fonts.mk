@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     ClockFontOneplusSansOverlay \
     ClockFontOneplusSlateOverlay \
     ClockFontOswaldOverlay \
+    ClockFontPixelFontOverlay \
     ClockFontQuandoOverlay \
     ClockFontRedressedOverlay \
     ClockFontReemKufiOverlay \
