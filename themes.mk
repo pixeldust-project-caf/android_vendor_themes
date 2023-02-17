@@ -16,3 +16,9 @@ PRODUCT_PACKAGES += \
     ShishuNightsThemeAndroidOverlay \
     ShishuNightsThemeSettingsOverlay \
     ShishuNightsThemeSystemUIOverlay
+
+# QS Panel styles
+PRODUCT_PACKAGES += \
+    QSOutline \
+    QSShaded \
+    QSTwoToneAccent
