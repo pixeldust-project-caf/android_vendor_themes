@@ -6,5 +6,5 @@
         android:category="android.theme.customization.lockscreen_clock_font"
         android:priority="1"/>
 
-    <application android:label="neon2" android:hasCode="false" android:icon="@mipmap/ic_launcher"/>
+    <application android:label="neon2" android:hasCode="false" android:allowBackup="false" android:icon="@mipmap/ic_launcher"/>
 </manifest>
