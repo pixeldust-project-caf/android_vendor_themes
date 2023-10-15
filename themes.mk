@@ -18,10 +18,10 @@ PRODUCT_PACKAGES += \
     ShishuNightsThemeSystemUIOverlay
 
 # QS Panel styles
-PRODUCT_PACKAGES += \
-    QSOutline \
-    QSShaded \
-    QSTwoToneAccent
+#PRODUCT_PACKAGES += \
+#    QSOutline \
+#    QSShaded \
+#    QSTwoToneAccent
 
 # Brightness slider styles
 PRODUCT_PACKAGES += \
